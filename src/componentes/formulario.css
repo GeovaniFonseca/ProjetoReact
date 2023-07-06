@@ -1,0 +1,32 @@
+.container-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  border: solid 1px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.item #text{
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .container-form {
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
